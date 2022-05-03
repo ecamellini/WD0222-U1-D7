@@ -22,6 +22,12 @@ console.log("Hello" / 15) // This results NaN (Not a Number)
 // When you see NaN, it means that something went wrong...
 // For example: at some point in your code, you are dividing a string and a number.
 
+console.log("\nModulo operator finds the remainder of the integer division")
+console.log(15 % 5) // results 0, why?
+// Integer division: how many times can 5 fit into 15 --> 3 times
+// And how much do we miss to reach 15? 5*3 is 15, so we miss 0.
+
+console.log(9 % 2) // results 1
 
 console.log("\n-----------------STRINGS-------------------\n")
 
@@ -43,6 +49,15 @@ console.log("In JS, strings can be delimited using \", \', and \`")
 // But also, you can use escape sequences to represent some special characters as well.
 // For example, \n represents the character "new line", it goes on a new line
 console.log("This is the first line.\nThis is the second line.")
+
+let firstString = "This is"
+let secondString = "a string obtained using concatenation."
+console.log(firstString + " " + secondString)
+
+console.log("+ operator on mixed types: automatic conversion to string")
+console.log("Eiffel" + 65)
+console.log("345" + 5)
+// THIS COULD LEAD TO ERRORS, TRY TO AVOID USING + on MIXED TYPES
 
 console.log("\n-----------------BOOLEAN-------------------\n")
 
