@@ -82,3 +82,26 @@ console.log(thisIsAVariable)
 // MY SUGGESTION IS TO AVOID THIS.
 // NEVER, NEVER, assign values of a different type to the same variable.
 // Do not mix data types, otherwise, your code could result in unexpected errors.
+
+
+console.log("\n-----------------PARSING-------------------\n")
+
+// Suppose that we ask the user to provide us
+// the amount of butter and sugar to add to the cookies.
+// Suppose we got that data...
+console.log("The user, provided us with two values:")
+let sugar = "80" // Suppose the arrived from a input field in our website
+let butter = "120.5" // Usually, when you get some data from HTML inputs, you get STRINGS
+console.log(sugar)
+console.log(butter)
+
+// You want to sum the two values...but you have two strings.
+// Because that's what the browser gave you...
+let sugarAmount = parseInt(sugar) // WE are converting strings into numbers...
+let butterAmount = parseFloat(butter) // It's explicit, it's not JS doing it implicitly.
+
+console.log("Here's the total amount:")
+console.log(sugarAmount + butterAmount)
+
+console.log("If we summed the string values, we would have gotten:")
+console.log(sugar + butter)
