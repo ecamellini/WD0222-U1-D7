@@ -71,3 +71,16 @@ canTheUserJoinTheCasting = (hasBlueEyes || hasGreenEyes) && isTallerThan175 && i
                         // (eyeColor === "blue" || eyeColor === "green") && (height > 175) && (hairColor === "blonde" || hairColor === "brown")
 
 console.log("Can the user join the casting now?", canTheUserJoinTheCasting)
+
+
+console.log("\n---------------IF STATEMENT---------------\n")
+
+// Suppose that If the user can join the casting, we want to say congratulations.
+// Otherwise, we want to say we're sorry.
+if ( canTheUserJoinTheCasting === true ) {
+  // THEN block - executed if the condition is true
+  console.log("Congratulations 🎉!")
+} else {
+  // ELSE block - executed if the condition is false
+  console.log("Sorry, maybe retry next time 🥲")
+}
