@@ -43,3 +43,11 @@ console.log("In JS, strings can be delimited using \", \', and \`")
 // But also, you can use escape sequences to represent some special characters as well.
 // For example, \n represents the character "new line", it goes on a new line
 console.log("This is the first line.\nThis is the second line.")
+
+console.log("\n-----------------BOOLEAN-------------------\n")
+
+console.log("Boolean values:")
+console.log(true)
+
+let anotherBoolean = false
+console.log(anotherBoolean)
