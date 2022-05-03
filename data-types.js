@@ -51,3 +51,19 @@ console.log(true)
 
 let anotherBoolean = false
 console.log(anotherBoolean)
+
+console.log("\n-----------------LOOSE TYPING-------------------\n")
+
+// In a loosely typed programming language like JS
+// variables are not declared to be of a specific type.
+// Type can also change overtime.
+let thisIsAVariable = 1232
+console.log("The variable contains a number:")
+console.log(thisIsAVariable)
+
+thisIsAVariable = "Now this is a string..."
+console.log(thisIsAVariable)
+
+// MY SUGGESTION IS TO AVOID THIS.
+// NEVER, NEVER, assign values of a different type to the same variable.
+// Do not mix data types, otherwise, your code could result in unexpected errors.
